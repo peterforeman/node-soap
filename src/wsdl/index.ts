@@ -471,7 +471,9 @@ export class WSDL {
           name === "int" ||
           name === "integer" ||
           name === "short" ||
-          name === "long"
+          name === "long" ||
+          name === "positiveInteger" ||
+          name === "nonNegativeInteger"
         ) {
           value = parseInt(text, 10);
         } else if (
