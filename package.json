@@ -7,6 +7,7 @@
   },
   "author": "Vinay Pulim <v@pulim.com>",
   "dependencies": {
+    "@types/strip-bom": "^4.0.1",
     "axios-ntlm": "^1.2.0",
     "debug": "^4.3.2",
     "formidable": "^2.0.1",
