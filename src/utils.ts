@@ -1,6 +1,6 @@
 
 import * as crypto from 'crypto';
-import { MultipartParser } from 'formidable/lib/multipart_parser.js';
+import { MultipartParser } from 'formidable';
 import { IMTOMAttachments } from './types';
 
 export function passwordDigest(nonce: string, created: string, password: string): string {
