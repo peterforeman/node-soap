@@ -1,12 +1,13 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es3",
+    "target": "es2020",
     "module": "commonjs",
     "outDir": "lib",
     "sourceMap": true,
     "declaration": true,
-    "stripInternal": true
+    "stripInternal": true,
+    "esModuleInterop": false,
   },
   "include": [
     "src/**/*"
